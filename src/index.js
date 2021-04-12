@@ -20,9 +20,9 @@ function handleMessage(message) {
 
   if (inactive_channel(message.channel.id)) return;
 
-  if (message.content === "ping") return message.reply("pong!");
-  if (message.content === "choo choo") return message.channel.send("🚂🌈💖!");
-  if (message.content === "rand") return random_reply(message);
+  if (message.content === "!ping") return message.reply("pong!");
+  if (message.content === "!choochoo") return message.channel.send("🚂🌈💖!");
+  if (message.content === "!rand") return random_reply(message);
 }
 
 function inactive_channel(channel_id) {
@@ -33,7 +33,7 @@ function inactive_channel(channel_id) {
 }
 
 function random_reply(message) {
-  const replies = ["Money!", "Fame", "Disneyland", "Coffee"];
+  const replies = ["Money", "Fame", "Disneyland", "Coffee"];
   const index = Math.floor(Math.random() * replies.length);
 
   message.channel.send(replies[index]);

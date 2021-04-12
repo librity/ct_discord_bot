@@ -1,19 +1,52 @@
 # Coding Train - Discord bot tutorial
 
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Libs](#libs)
+- [Docs](#docs)
+- [Resources](#resources)
+
+## About <a name = "about"></a>
+
 My first discord bot!
 
 - [Coding Train Tutorial](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6avBYxeBSwF48YhAnSn_sA4)
 
-### Resources
+## Getting Started <a name = "getting_started"></a>
 
-- `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot`
+### Prerequisites
 
-### Libs
+- `node >= 12.0.0`
+- `yarn == 1.22.X`
+
+### Installation
+
+1. Clone this repo locally and install the required packages:
+
+```bash
+$ git clone https://github.com/librity/shiffman_discord_bot.git
+$ cd shiffman_discord_bot
+$ yarn install
+```
+
+2. Add the bot token to the `.env` file and start the bot:
+
+```bash
+$ yarn start
+```
+
+## Libs <a name = "libs"></a>
 
 - https://github.com/discordjs/discord.js
 - https://github.com/motdotla/dotenv
 
-### Docs
+## Docs <a name = "docs"></a>
 
 - https://discord.js.org/#/docs/main/stable/general/welcome
+
+## Resources <a name = "resources"></a>
+
 - https://discordjs.guide/
+- `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot`
