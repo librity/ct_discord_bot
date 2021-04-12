@@ -10,4 +10,10 @@ My first discord bot!
 
 ### Libs
 
-- https://discord.js.org/
+- https://github.com/discordjs/discord.js
+- https://github.com/motdotla/dotenv
+
+### Docs
+
+- https://discord.js.org/#/docs/main/stable/general/welcome
+- https://discordjs.guide/
