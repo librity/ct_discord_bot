@@ -41,12 +41,15 @@ $ yarn start
 
 - https://github.com/discordjs/discord.js
 - https://github.com/motdotla/dotenv
+- https://github.com/node-fetch/node-fetch
 
 ## Docs <a name = "docs"></a>
 
 - https://discord.js.org/#/docs/main/stable/general/welcome
+- https://tenor.com/gifapi/documentation
 
 ## Resources <a name = "resources"></a>
 
-- https://discordjs.guide/
 - `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot`
+- https://discordjs.guide/
+- https://tenor.com/gifapi
