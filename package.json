@@ -1,0 +1,13 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "Coding Train - My first discord bot!",
+  "main": "index.js",
+  "repository": "git@github.com:librity/shiffman_discord_bot.git",
+  "author": "Luis Geniole <luis.geniole@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
