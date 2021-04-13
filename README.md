@@ -4,6 +4,8 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Commands](#commands)
+- [Repos](#repos)
 - [Libs](#libs)
 - [Docs](#docs)
 - [Resources](#resources)
@@ -36,6 +38,18 @@ $ yarn install
 ```bash
 $ yarn start
 ```
+
+## Commands <a name = "commands"></a>
+
+- `!ping`
+- `!choochoo`
+- `!rand`
+- `!gif` _`query`_
+
+## Repos <a name = "repos"></a>
+
+- https://github.com/CodingGarden/intro-discord-bot
+- https://github.com/CodingGarden/discord-manager
 
 ## Libs <a name = "libs"></a>
 

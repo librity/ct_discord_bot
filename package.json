@@ -8,11 +8,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "prettify": "prettier --write ."
   },
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.2.1"
   }
 }
