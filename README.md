@@ -5,10 +5,10 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Commands](#commands)
-- [Repos](#repos)
 - [Libs](#libs)
 - [Docs](#docs)
 - [Resources](#resources)
+- [Repos](#repos)
 
 ## About <a name = "about"></a>
 
@@ -46,16 +46,12 @@ $ yarn start
 - `!rand`
 - `!gif` _`query`_
 
-## Repos <a name = "repos"></a>
-
-- https://github.com/CodingGarden/intro-discord-bot
-- https://github.com/CodingGarden/discord-manager
-
 ## Libs <a name = "libs"></a>
 
 - https://github.com/discordjs/discord.js
 - https://github.com/motdotla/dotenv
 - https://github.com/node-fetch/node-fetch
+- https://github.com/remy/nodemon
 
 ## Docs <a name = "docs"></a>
 
@@ -67,3 +63,8 @@ $ yarn start
 - `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot`
 - https://discordjs.guide/
 - https://tenor.com/gifapi
+
+## Repos <a name = "repos"></a>
+
+- https://github.com/CodingGarden/intro-discord-bot
+- https://github.com/CodingGarden/discord-manager
