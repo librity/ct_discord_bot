@@ -1,4 +1,6 @@
 function logMessage(message) {
+  // console.log(message)
+
   reducedMessage = {
     channelName: message.channel.name,
     channelId: message.channel.id,

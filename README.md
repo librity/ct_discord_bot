@@ -57,12 +57,14 @@ $ yarn nodemon
 
 - https://discord.js.org/#/docs/main/stable/general/welcome
 - https://tenor.com/gifapi/documentation
+- https://discordjs.guide/popular-topics/embeds.html
 
 ## Resources <a name = "resources"></a>
 
 - `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot`
 - https://discordjs.guide/
 - https://tenor.com/gifapi
+- https://python.plainenglish.io/python-discord-bots-formatting-text-efca0c5dc64a
 
 ## Repos <a name = "repos"></a>
 

@@ -1,11 +1,13 @@
 const logMessage = require('./logMessage')
 
+const help = require('./help')
 const ping = require('./ping')
 const choo = require('./choo')
 const random = require('./random')
 const gif = require('./gif')
 
 const commands = {
+  help,
   ping,
   choo,
   rand: random,
@@ -21,6 +23,7 @@ function commandHandler(message) {
   if (tokens.length === 0) return
 
   const first = tokens.shift()
+  if (first === 'help') return help(message, tokens)
   if (first.charAt(0) !== '!') return
 
   const command = first.substr(1)
