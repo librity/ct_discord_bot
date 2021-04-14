@@ -1,4 +1,4 @@
-function choo(message) {
+function choo(message, _tokens) {
   message.channel.send('choo 🚂🌈💖!')
 }
 

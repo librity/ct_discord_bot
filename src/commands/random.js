@@ -1,6 +1,6 @@
 const { getRandom } = require('./utils')
 
-function random(message) {
+function random(message, _token) {
   const replies = ['Money', 'Fame', 'Disneyland', 'Coffee']
   const index = getRandom(replies.length)
 

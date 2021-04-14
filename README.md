@@ -36,13 +36,13 @@ $ yarn install
 2. Add the bot token to the `.env` file and start the bot:
 
 ```bash
-$ yarn start
+$ yarn nodemon
 ```
 
 ## Commands <a name = "commands"></a>
 
 - `!ping`
-- `!choochoo`
+- `!choo`
 - `!rand`
 - `!gif` _`query`_
 

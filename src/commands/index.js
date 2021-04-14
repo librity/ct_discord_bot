@@ -5,24 +5,33 @@ const choo = require('./choo')
 const random = require('./random')
 const gif = require('./gif')
 
+const commands = {
+  ping,
+  choo,
+  rand: random,
+  gif,
+}
+
 function commandHandler(message) {
   logMessage(message)
 
-  if (inactive_channel(message.channel.id)) return
+  if (botNotAllowed(message.channel.id)) return
 
   const tokens = message.content.split(' ')
+  if (tokens.length === 0) return
 
-  if (tokens[0] === '!ping') return ping(message)
-  if (tokens[0] === '!choochoo') return choo(message)
-  if (tokens[0] === '!rand') return random(message)
-  if (tokens[0] === '!gif') return gif(message, tokens)
+  const first = tokens.shift()
+  if (first.charAt(0) !== '!') return
+
+  const command = first.substr(1)
+  commands[command](message, tokens)
 }
 
-function inactive_channel(channel_id) {
-  const activeChannels = ['831061414134939688']
-  const isInactive = !activeChannels.find(id => id === channel_id)
+function botNotAllowed(channel_id) {
+  const allowedChannels = ['831061414134939688']
+  const isAllowed = allowedChannels.find(id => id === channel_id)
 
-  return isInactive
+  return !isAllowed
 }
 
 module.exports = commandHandler
