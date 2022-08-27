@@ -6,7 +6,7 @@ function help(message, _tokens) {
     .setTitle('Welcome to my first discord bot!')
     .setURL('https://github.com/librity/shiffman_discord_bot')
     .setAuthor(
-      'ליאור בן יוסף',
+      'Luis Geniole',
       'https://avatars.githubusercontent.com/u/19496542?v=4',
       'https://github.com/librity',
     )
